@@ -133,7 +133,10 @@ public final class GUI extends JFrame {
 		
 		juego=Juego.getJuego();
 	}
-	
+	/**
+	 * 
+	 * @return
+	 */
 	public static GUI getGUI() {
 		return gui;	
 	}
